@@ -1,0 +1,1 @@
+never tee -a /sys/kernel/mm/transparent_hugepage/enabled

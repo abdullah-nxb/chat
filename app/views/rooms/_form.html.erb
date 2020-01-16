@@ -1,0 +1,5 @@
+<%= simple_form_for @room do |form| %>
+    <%= form.input :title, :as => :hidden, :input_html => { :value => [1,2,3] } %>
+    <%= form.input :name %>
+    <%= form.submit "Save", class: 'btn btn-success' %>
+<% end %>
