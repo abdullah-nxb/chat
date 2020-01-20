@@ -23,4 +23,5 @@ RUN bundle install
 
 COPY . /usr/src/app
 EXPOSE 3000
+#CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
 CMD ["rails", "server", "-b", "0.0.0.0"]
